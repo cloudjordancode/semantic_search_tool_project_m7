@@ -1,0 +1,15 @@
+# Ignore the local Python virtual environment.
+.venv/
+
+# Ignore Python-generated cache files.
+__pycache__/
+*.pyc
+
+# Ignore local ChromaDB database files.
+chroma_data/
+
+# Ignore macOS system files.
+.DS_Store
+
+# Ignore local environment variables and secrets.
+.env
